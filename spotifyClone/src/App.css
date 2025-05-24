@@ -6,6 +6,6 @@
 .mainContentContainer {
   display: flex;
   /*border: 2px solid red;*/
-  height: 90%;
+  height: 80%;
   justify-content: space-evenly;
 } 
