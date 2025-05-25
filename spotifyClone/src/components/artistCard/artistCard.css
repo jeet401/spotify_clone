@@ -1,0 +1,30 @@
+.artistCardMainContainer {
+    display: flex;
+}
+
+.artistCard {
+    width: 20%;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.artistCard img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.artistCardTextContainer {
+    width: 100%;
+}
+
+.artistCardTextContainer h1{
+    font-size: 1.1rem;
+}
+
+.artistCardTextContainer p{
+    font-size: 0.7rem;
+}

@@ -4,8 +4,8 @@ import ArtistCard from '../artistCard/ArtistCard'
 
 const PopularArtists = () => {
   return (
-    <div className="popularArtistsMainContainer">
-      PopularArtists
+    <div className="popularArtistsMainContainer trendingsectionMainContainer">
+      <span>PopularArtists</span>
         <ArtistCard />
     </div>
   )
