@@ -1,7 +1,7 @@
 import React from 'react'
 import './artistCard.css'
 import { artistList } from '../../config/config'
-const ArtistCard = () => {
+const ArtistCard = ({setCurrentPage}) => {
   const arr = [
     {img:"",name:""},
     {img:"",name:""},
@@ -12,7 +12,9 @@ const ArtistCard = () => {
   ]
   return (
     <>
-    <div className="artistCardMainContainer">
+    <div onClick={()=> {
+      setCurrentPage("artistSpecificPage")
+    }} className="artistCardMainContainer">
     { artistList.map((ele) => {
       return (
         <div className="artistCard">
