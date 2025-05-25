@@ -1,4 +1,87 @@
-nav {
-    /*border: 2px solid green;*/
-    height : 10%;
+.navbarMainContainer {
+  height: 10%;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+  color: #fff;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.navbar-logo img {
+  height: 32px;
+}
+
+.navbar-search {
+  display: flex;
+  align-items: center;
+  background-color: #121212;
+  border-radius: 20px;
+  padding: 4px 12px;
+  width: 40%;
+}
+
+.navbar-search-input {
+  flex: 1;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 0.9rem;
+  outline: none;
+}
+
+.navbar-search-input::placeholder {
+  color: #b3b3b3;
+}
+
+.navbar-search-icon {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.navbar-link {
+  color: #fff;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.navbar-link:hover {
+  color: #1fdf64;
+}
+
+.navbar-divider {
+  color: #b3b3b3;
+  font-size: 0.9rem;
+}
+
+.navbar-login-button {
+  background-color: #fff;
+  color: #000;
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.navbar-login-button:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.05);
 }
