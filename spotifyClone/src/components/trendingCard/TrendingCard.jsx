@@ -1,6 +1,7 @@
 import React from 'react'
 import './trendingCard.css'
 import { TrendingCardData } from '../../config/config'
+import '../artistCard/artistCard.css' 
 
 const TrendingCard = () => {
   const arr=[
