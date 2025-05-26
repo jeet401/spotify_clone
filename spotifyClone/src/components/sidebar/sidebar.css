@@ -1,8 +1,11 @@
 .sidebarMainContainer {
     /*border: 2px solid green;*/
     width: 20%;
+    height: 100%;
     border-radius: 10px;
     background-image: linear-gradient(to bottom, rgba(46,46,46,0.838), #242424); 
+    display: flex;
+    flex-direction: column;
 }
 
 .sidebarTopSection {
@@ -24,10 +27,18 @@
 .sidebarTopSection p {
     font-size: 1rem;
 }
+
 .sidebarMiddleSection {
     height: 38%;
     /*border: 2px solid red;*/
     overflow-y: scroll;
+}
+
+.sidebarBottomSection {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .sidebarMiddleCards {
@@ -39,7 +50,7 @@
 }
 
 .sidebarMiddleCards h2 {
-    font-size: 1 rem;
+    font-size: 1rem;
     margin-bottom: 0.5rem;
 }
 
@@ -75,7 +86,6 @@
 margin-bottom: 1rem;
 }
 
-
 .sidebarBottomSectionBottomContainer p{
  margin: 0.3rem;
     font-size: 0.8rem;
@@ -92,6 +102,3 @@ border: 1px solid white;
 outline: none;
 margin-left:1.7rem;
 }
-
-
-
