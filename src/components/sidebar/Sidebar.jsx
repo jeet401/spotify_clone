@@ -1,6 +1,6 @@
 import React from 'react'
 import './sidebar.css'
-import Cards from './cards'
+import Cards from './Cards'
 const Sidebar = () => {
   const Text = ["Legal","Security and Privacy Center", "Privacy Policy", "Cookies", "About Ads","Accessibility"]
   return (
