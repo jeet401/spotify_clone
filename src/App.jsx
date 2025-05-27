@@ -3,7 +3,7 @@ import './App.css'
 import Navbar from './components/navbar/Navbar'
 import MainSection from './components/mainSection/MainSection'
 import Sidebar from './components/sidebar/Sidebar'
-import Footer from './components/footer/footer'
+import Footer from './components/footer/Footer'
 
 function App() {
 
